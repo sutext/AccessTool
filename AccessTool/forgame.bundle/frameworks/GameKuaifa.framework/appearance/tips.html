@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=no">
+<title>SDK</title>
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/JSKit.js"></script>
+</head>
+
+<body>
+<div class="wrap popup-wrap popup-pt20 popup-pb20">
+	<a class="popup-return" href="#"><span class="popup-return-icon">〈</span>&nbsp;返回</a>
+	<span class="popup-close"></span>
+	<table class="tips-wrap">
+		<tbody>
+			<tr>
+				<td>
+					<img class="tips-icon" src="images/success.png">
+				</td>
+				<td id="title">修改密码成功</td>
+                <script>
+                    (function (){
+                     var title = JSKit.param('title');
+                     $("#title").text(title);
+                     }());
+                    </script>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</body>
+</html>

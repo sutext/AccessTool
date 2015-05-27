@@ -1,0 +1,6 @@
+framework module GameKuaifa {
+  umbrella header "GameKuaifa.h"
+
+  export *
+  module * { export * }
+}

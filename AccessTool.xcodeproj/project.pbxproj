@@ -12,6 +12,7 @@
 		33511BB91B1492A600A587F2 /* ATMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33511BB81B1492A600A587F2 /* ATMainViewController.m */; };
 		33511BBB1B1492A600A587F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33511BBA1B1492A600A587F2 /* Images.xcassets */; };
 		33511BBE1B1492A600A587F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33511BBC1B1492A600A587F2 /* Main.storyboard */; };
+		33511BD51B1565FB00A587F2 /* forgame.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33511BD41B1565FB00A587F2 /* forgame.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33511BB81B1492A600A587F2 /* ATMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATMainViewController.m; sourceTree = "<group>"; };
 		33511BBA1B1492A600A587F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33511BBD1B1492A600A587F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33511BD41B1565FB00A587F2 /* forgame.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = forgame.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		33511BAF1B1492A600A587F2 /* AccessTool */ = {
 			isa = PBXGroup;
 			children = (
+				33511BD41B1565FB00A587F2 /* forgame.bundle */,
 				33511BB21B1492A600A587F2 /* AppDelegate.h */,
 				33511BB31B1492A600A587F2 /* AppDelegate.m */,
 				33511BB71B1492A600A587F2 /* ATMainViewController.h */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33511BD51B1565FB00A587F2 /* forgame.bundle in Resources */,
 				33511BBB1B1492A600A587F2 /* Images.xcassets in Resources */,
 				33511BBE1B1492A600A587F2 /* Main.storyboard in Resources */,
 			);

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=no">
+    <title>SDK</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.json-2.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.base64.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/JSKit.js"></script>
+    <script type="text/javascript" src="js/auth.js"></script>
+</head>
+
+<body>
+<div class="wrap popup-wrap popup-pt20 popup-pb20">
+	<a class="popup-return" href="#"><span class="popup-return-icon">〈</span>&nbsp;返回</a>
+	<span class="popup-close"></span>
+	<p class="popup-text-big">手机号注册：13123456789</p>
+	<p class="popup-text-small">您将会收到一条带有验证码的短信，请在下方输入</p>
+	<input id="password" class="popup-input" type="password" placeholder="账号密码">
+	<div class="code-wrap clearfix">
+		<input id="seccode" class="popup-input popup-input-code" type="text" placeholder="短信验证码">
+		<span class="code-btn" data-api="json/code.json"></span>
+		<input id="code-flag" type="hidden" value="countdown">
+	</div>
+	<a class="popup-btn" href="javascript:JSKit.auth.phoneRegister2()">立即注册</a>
+    <script>
+        (function (){
+         var mail = JSKit.param('mail');
+         $("p.popup-text-big").text("手机号注册："+mail);
+         }());
+        </script>
+</div>
+</body>
+</html>

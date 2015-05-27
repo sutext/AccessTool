@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=no">
+<title>SDK</title>
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.json-2.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.base64.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/JSKit.js"></script>
+<script type="text/javascript" src="js/auth.js"></script>
+</head>
+
+<body>
+<div class="wrap popup-wrap popup-pb20">
+	<a class="popup-return" href="#"><span class="popup-return-icon">〈</span>&nbsp;返回</a>
+	<span class="popup-close"></span>
+	<img class="popup-logo" src="images/logo.jpg">
+	<p class="bind-tips">为保证您的账号安全，请先验证您的手机</p>
+	<input id="username" class="popup-input" type="text" placeholder="请输入您的验证手机号">
+	<div class="code-wrap clearfix">
+		<input id="seccode" class="popup-input popup-input-code" type="text" placeholder="短信验证码">
+		<span class="code-btn" data-api="json/code.json" onclick="javascript:JSKit.auth.bindmobile('1')"></span>
+		<input id="code-flag" type="hidden" value="send">
+	</div>
+	<a class="popup-btn" href="javascript:JSKit.auth.bindmobile('2')">立即验证</a>
+</div>
+</body>
+</html>

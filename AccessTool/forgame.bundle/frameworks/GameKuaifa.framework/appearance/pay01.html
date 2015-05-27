@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=no">
+    <title>SDK</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.json-2.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.base64.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/JSKit.js"></script>
+    <script type="text/javascript" src="js/pay.js"></script>
+</head>
+
+<body class="pay-body">
+<header class="pay-header">
+	<p class="pay-header-title">支付</p>
+<!--	<a class="pay-header-return" href="jskit://www.kuaifa.com/return"><span class="pay-header-return-icon">〈</span>&nbsp;返回</a>-->
+	<a class="pay-header-close" href="jskit://www.kuaifa.com/close">关闭</a>
+</header>
+
+<div class="pay-wrap">
+	<p class="pay-title">选择支付类型</p>
+	<ul id="tableView" class="pay-list clearfix">
+<!--		<li class="pay-item">-->
+<!--			<input id="pay-item01" class="pay-radio" type="radio" name="pay-radio" data-flag="0">-->
+<!--			<label class="pay-radio-text" for="pay-item01">-->
+<!--				<img class="pay-radio-icon" src="images/pay-icon.jpg">-->
+<!--				<span>支付宝</span>-->
+<!--			</label>-->
+<!--		</li>-->
+<!--		<li class="pay-item">-->
+<!--			<input id="pay-item02" class="pay-radio" type="radio" name="pay-radio" data-flag="1">-->
+<!--			<label class="pay-radio-text" for="pay-item02">-->
+<!--				<img class="pay-radio-icon" src="images/pay-icon.jpg">-->
+<!--				<span>银联卡</span>-->
+<!--			</label>-->
+<!--		</li>-->
+<!--		<li class="pay-item">-->
+<!--			<input id="pay-item03" class="pay-radio" type="radio" name="pay-radio" data-flag="0">-->
+<!--			<label class="pay-radio-text" for="pay-item03">-->
+<!--				<img class="pay-radio-icon" src="images/pay-icon.jpg">-->
+<!--				<span>盛大一卡通</span>-->
+<!--			</label>-->
+<!--		</li>-->
+<!--		<li class="pay-item">-->
+<!--			<input id="pay-item04" class="pay-radio" type="radio" name="pay-radio" data-flag="1">-->
+<!--			<label class="pay-radio-text" for="pay-item04">-->
+<!--				<img class="pay-radio-icon" src="images/pay-icon.jpg">-->
+<!--				<span>信用卡</span>-->
+<!--			</label>-->
+<!--		</li>-->
+	</ul>
+	<div class="pay-toggle">
+		<p class="pay-title">选择金额</p>
+		<select class="pay-select">
+<!--			<option value="1">1元</option>-->
+<!--			<option value="5">5元</option>-->
+<!--			<option value="10">10元</option>-->
+<!--			<option value="20">20元</option>-->
+<!--			<option value="50">50元</option>-->
+<!--			<option value="100">100元</option>-->
+		</select>
+		<input id="cardno" class="pay-input" type="text" placeholder="输入卡号">
+		<input id="cardkey" class="pay-input" type="text" placeholder="输入密码">
+	</div>
+	<a class="pay-btn" href="javascript:JSKit.pay.submitOrder()">立即支付</a>
+	<p class="pay-footer-text">若有疑问，请咨询客服热线：028-12345678<br>服务时间：每天8:00-23:00</p>
+    <script>
+        (function (){
+         JSKit.pay.paywayList();
+         }());
+        </script>
+</div>
+</body>
+</html>
