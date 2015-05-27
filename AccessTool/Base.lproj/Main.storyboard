@@ -672,13 +672,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nVr-lw-csf">
-                                <rect key="frame" x="34" y="202" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="拇指玩" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="zRN-B6-0ID">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8jx-Fw-4N1">
                                 <rect key="frame" x="258" y="202" width="87" height="25"/>
                                 <buttonCell key="cell" type="check" title="腾讯应用宝" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="CFE-eZ-0Ty">
@@ -761,6 +754,13 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nVr-lw-csf">
+                                <rect key="frame" x="36" y="203" width="73" height="25"/>
+                                <buttonCell key="cell" type="check" title="拇指玩" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="zRN-B6-0ID">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
