@@ -12,6 +12,7 @@
 @property(nonatomic,strong)IBOutlet NSTextField *pathView;
 @property(nonatomic,strong)IBOutlet NSProgressIndicator *progress;
 @property(nonatomic,strong)IBOutlet NSButton *chooseButton;
+
 - (IBAction)chooseFile;
 @end
 
