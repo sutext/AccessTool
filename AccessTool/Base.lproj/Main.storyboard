@@ -767,6 +767,7 @@
                         <outlet property="chooseButton" destination="Lgd-F4-MJP" id="SMM-U6-BsU"/>
                         <outlet property="pathView" destination="j22-5W-3xd" id="XZm-Gr-haw"/>
                         <outlet property="progress" destination="4SN-aL-dFS" id="OhK-gn-Ir2"/>
+                        <outlet property="startButton" destination="1Zv-Gf-qQd" id="f3I-H9-kKR"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
