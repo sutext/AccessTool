@@ -13,5 +13,6 @@
 @property(nonatomic,strong)IBOutlet NSProgressIndicator *progress;
 @property(nonatomic,strong)IBOutlet NSButton *chooseButton;
 @property(nonatomic,strong)IBOutlet NSButton *startButton;
+- (IBAction)chooseFile;
 @end
 
