@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7702"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -672,55 +672,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8jx-Fw-4N1">
-                                <rect key="frame" x="258" y="202" width="87" height="25"/>
-                                <buttonCell key="cell" type="check" title="腾讯应用宝" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="CFE-eZ-0Ty">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNM-Yk-AdQ">
-                                <rect key="frame" x="152" y="202" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="当乐" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="39y-ZD-QDc">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QVJ-nr-IeJ">
-                                <rect key="frame" x="34" y="168" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="PP助手" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="e9x-xs-yHr">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOz-O1-haQ">
-                                <rect key="frame" x="152" y="168" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="XY助手" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="kHf-Rg-Zzn">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NAA-59-qCa">
-                                <rect key="frame" x="258" y="168" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="爱苹果" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="7cD-Va-jsx">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fYN-Vc-U3K">
-                                <rect key="frame" x="379" y="168" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="快用" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rDk-9d-3ar">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dMD-pG-D9h">
-                                <rect key="frame" x="379" y="202" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="同步推" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="GJB-b2-D4U">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ibq-8T-aWT">
                                 <rect key="frame" x="36" y="238" width="91" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="选择出包渠道:" id="q7H-yy-b31">
@@ -730,14 +681,14 @@
                                 </textFieldCell>
                             </textField>
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lgd-F4-MJP">
-                                <rect key="frame" x="34" y="121" width="50" height="27"/>
+                                <rect key="frame" x="34" y="106" width="50" height="27"/>
                                 <buttonCell key="cell" type="bevel" title="选择" bezelStyle="regularSquare" imagePosition="above" alignment="center" borderStyle="border" imageScaling="proportionallyDown" id="5KT-bJ-Cfx">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <progressIndicator fixedFrame="YES" maxValue="102" doubleValue="93" indeterminate="YES" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="4SN-aL-dFS">
-                                <rect key="frame" x="38" y="89" width="412" height="20"/>
+                                <rect key="frame" x="38" y="82" width="412" height="20"/>
                             </progressIndicator>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Zv-Gf-qQd">
                                 <rect key="frame" x="38" y="53" width="67" height="23"/>
@@ -746,24 +697,79 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nVr-lw-csf">
-                                <rect key="frame" x="36" y="203" width="73" height="25"/>
-                                <buttonCell key="cell" type="check" title="拇指玩" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="zRN-B6-0ID">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j22-5W-3xd">
-                                <rect key="frame" x="88" y="124" width="364" height="22"/>
+                                <rect key="frame" x="88" y="109" width="364" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="请选择ipa包" id="RP4-dx-3kw">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="szz-4e-knb">
+                                <rect key="frame" x="38" y="140" width="416" height="96"/>
+                                <subviews>
+                                    <button fixedFrame="YES" tag="103" translatesAutoresizingMaskIntoConstraints="NO" id="8jx-Fw-4N1">
+                                        <rect key="frame" x="227" y="52" width="87" height="25"/>
+                                        <buttonCell key="cell" type="check" title="seahorse" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="CFE-eZ-0Ty">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="100" translatesAutoresizingMaskIntoConstraints="NO" id="QNM-Yk-AdQ">
+                                        <rect key="frame" x="114" y="53" width="73" height="25"/>
+                                        <buttonCell key="cell" type="check" title="dangios" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="39y-ZD-QDc">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="105" translatesAutoresizingMaskIntoConstraints="NO" id="QVJ-nr-IeJ">
+                                        <rect key="frame" x="-2" y="18" width="73" height="25"/>
+                                        <buttonCell key="cell" type="check" title="itools" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="e9x-xs-yHr">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="106" translatesAutoresizingMaskIntoConstraints="NO" id="pOz-O1-haQ">
+                                        <rect key="frame" x="114" y="18" width="73" height="25"/>
+                                        <buttonCell key="cell" type="check" title="xyzs" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="kHf-Rg-Zzn">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="107" translatesAutoresizingMaskIntoConstraints="NO" id="NAA-59-qCa">
+                                        <rect key="frame" x="227" y="18" width="73" height="25"/>
+                                        <buttonCell key="cell" type="check" title="iapple" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="7cD-Va-jsx">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="108" translatesAutoresizingMaskIntoConstraints="NO" id="fYN-Vc-U3K">
+                                        <rect key="frame" x="339" y="18" width="78" height="25"/>
+                                        <buttonCell key="cell" type="check" title="kuaiyong" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rDk-9d-3ar">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="104" translatesAutoresizingMaskIntoConstraints="NO" id="dMD-pG-D9h">
+                                        <rect key="frame" x="339" y="52" width="73" height="25"/>
+                                        <buttonCell key="cell" type="check" title="tongbu" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="GJB-b2-D4U">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button fixedFrame="YES" tag="100" translatesAutoresizingMaskIntoConstraints="NO" id="nVr-lw-csf">
+                                        <rect key="frame" x="-2" y="53" width="73" height="25"/>
+                                        <buttonCell key="cell" type="check" title="forgame" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="zRN-B6-0ID">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                </subviews>
+                            </customView>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="channelView" destination="szz-4e-knb" id="iRE-Qh-Dcf"/>
                         <outlet property="chooseButton" destination="Lgd-F4-MJP" id="SMM-U6-BsU"/>
                         <outlet property="pathView" destination="j22-5W-3xd" id="XZm-Gr-haw"/>
                         <outlet property="progress" destination="4SN-aL-dFS" id="OhK-gn-Ir2"/>
@@ -773,18 +779,6 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="IEh-b0-idq">
-            <objects>
-                <viewController id="Hrr-Ir-SMQ" sceneMemberID="viewController">
-                    <view key="view" id="uqy-zz-bOZ">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </view>
-                </viewController>
-                <customObject id="KxZ-A0-QYg" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
 </document>

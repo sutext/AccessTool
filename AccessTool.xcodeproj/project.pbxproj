@@ -13,7 +13,8 @@
 		33511BBB1B1492A600A587F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33511BBA1B1492A600A587F2 /* Images.xcassets */; };
 		33511BBE1B1492A600A587F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33511BBC1B1492A600A587F2 /* Main.storyboard */; };
 		33511BD51B1565FB00A587F2 /* forgame.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33511BD41B1565FB00A587F2 /* forgame.bundle */; };
-		7B522B821B1572E500DA2287 /* ChangeLogUnzip in Resources */ = {isa = PBXBuildFile; fileRef = 7B522B781B1572E500DA2287 /* ChangeLogUnzip */; };
+		336553D41B25C584009CECC1 /* xyzs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 336553D31B25C584009CECC1 /* xyzs.bundle */; };
+		3392E4C71B1DA0BF00C1D8E9 /* ATChannelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3392E4C61B1DA0BF00C1D8E9 /* ATChannelConfig.m */; };
 		7B522B831B1572E500DA2287 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B522B7A1B1572E500DA2287 /* ioapi.c */; };
 		7B522B841B1572E500DA2287 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B522B7C1B1572E500DA2287 /* mztools.c */; };
 		7B522B851B1572E500DA2287 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B522B7E1B1572E500DA2287 /* unzip.c */; };
@@ -21,7 +22,6 @@
 		7B522B8C1B1575F900DA2287 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B522B8B1B1575F900DA2287 /* ZipArchive.mm */; };
 		7B522B8E1B1576A400DA2287 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B522B8D1B1576A400DA2287 /* libc++.dylib */; };
 		7B522B901B1576AF00DA2287 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B522B8F1B1576AF00DA2287 /* libz.dylib */; };
-		7B522B951B15BBF700DA2287 /* wwmxd_linyou2_big_1.4.0_20150228_1105.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 7B522B941B15BBF700DA2287 /* wwmxd_linyou2_big_1.4.0_20150228_1105.ipa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +35,9 @@
 		33511BBA1B1492A600A587F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33511BBD1B1492A600A587F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33511BD41B1565FB00A587F2 /* forgame.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = forgame.bundle; sourceTree = "<group>"; };
+		336553D31B25C584009CECC1 /* xyzs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xyzs.bundle; sourceTree = "<group>"; };
+		3392E4C51B1DA0BF00C1D8E9 /* ATChannelConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATChannelConfig.h; sourceTree = "<group>"; };
+		3392E4C61B1DA0BF00C1D8E9 /* ATChannelConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATChannelConfig.m; sourceTree = "<group>"; };
 		7B522B781B1572E500DA2287 /* ChangeLogUnzip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLogUnzip; sourceTree = "<group>"; };
 		7B522B791B1572E500DA2287 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 		7B522B7A1B1572E500DA2287 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
@@ -49,7 +52,6 @@
 		7B522B8B1B1575F900DA2287 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
 		7B522B8D1B1576A400DA2287 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		7B522B8F1B1576AF00DA2287 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		7B522B941B15BBF700DA2287 /* wwmxd_linyou2_big_1.4.0_20150228_1105.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = wwmxd_linyou2_big_1.4.0_20150228_1105.ipa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,18 +86,19 @@
 		33511BAF1B1492A600A587F2 /* AccessTool */ = {
 			isa = PBXGroup;
 			children = (
+				336553D31B25C584009CECC1 /* xyzs.bundle */,
 				7B522B771B1572E500DA2287 /* minizip */,
 				7B522B8A1B1575F900DA2287 /* ZipArchive.h */,
 				7B522B8B1B1575F900DA2287 /* ZipArchive.mm */,
 				33511BD41B1565FB00A587F2 /* forgame.bundle */,
 				7B522B8F1B1576AF00DA2287 /* libz.dylib */,
 				7B522B8D1B1576A400DA2287 /* libc++.dylib */,
-				7B522B941B15BBF700DA2287 /* wwmxd_linyou2_big_1.4.0_20150228_1105.ipa */,
 				33511BB21B1492A600A587F2 /* AppDelegate.h */,
 				33511BB31B1492A600A587F2 /* AppDelegate.m */,
 				33511BB71B1492A600A587F2 /* ATMainViewController.h */,
 				33511BB81B1492A600A587F2 /* ATMainViewController.m */,
-				A486D2161B15710B00D52AEB /* icon.jpg */,
+				3392E4C51B1DA0BF00C1D8E9 /* ATChannelConfig.h */,
+				3392E4C61B1DA0BF00C1D8E9 /* ATChannelConfig.m */,
 				33511BBA1B1492A600A587F2 /* Images.xcassets */,
 				33511BBC1B1492A600A587F2 /* Main.storyboard */,
 				33511BB01B1492A600A587F2 /* Supporting Files */,
@@ -186,9 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B522B821B1572E500DA2287 /* ChangeLogUnzip in Resources */,
-				7B522B951B15BBF700DA2287 /* wwmxd_linyou2_big_1.4.0_20150228_1105.ipa in Resources */,
 				33511BD51B1565FB00A587F2 /* forgame.bundle in Resources */,
+				336553D41B25C584009CECC1 /* xyzs.bundle in Resources */,
 				33511BBB1B1492A600A587F2 /* Images.xcassets in Resources */,
 				33511BBE1B1492A600A587F2 /* Main.storyboard in Resources */,
 			);
@@ -204,6 +206,7 @@
 				7B522B851B1572E500DA2287 /* unzip.c in Sources */,
 				33511BB91B1492A600A587F2 /* ATMainViewController.m in Sources */,
 				7B522B8C1B1575F900DA2287 /* ZipArchive.mm in Sources */,
+				3392E4C71B1DA0BF00C1D8E9 /* ATChannelConfig.m in Sources */,
 				33511BB61B1492A600A587F2 /* main.m in Sources */,
 				7B522B831B1572E500DA2287 /* ioapi.c in Sources */,
 				7B522B861B1572E500DA2287 /* zip.c in Sources */,
