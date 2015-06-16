@@ -32,6 +32,7 @@
 @property(nonatomic,copy,readwrite)NSString *AppScheme_Prefix;
 @property(nonatomic,copy,readwrite)NSString *AlipayScheme_Prefix;
 @property(nonatomic,copy,readwrite)NSString *BundleID;
+@property(nonatomic,copy,readwrite)NSString *BundleVersion;
 @property(nonatomic,copy,readwrite)NSString *BundleDisplayName;
 @property(nonatomic,copy,readwrite)NSString *ICON_NEED_SETTING;
 @property(nonatomic,copy,readwrite)NSString *ICON_location;
@@ -51,7 +52,7 @@
     if (codeptr) {
         *codeptr=code;
     }
-    return codeptr==ATConfigReadCodeSucceed?config:nil;
+    return (*codeptr==ATConfigReadCodeSucceed)?config:nil;
 }
 -(ATConfigReadCode)readWithCPName:(NSString *)cpname inConfigFile:(NSString *)xmlfile
 {

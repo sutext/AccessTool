@@ -10,9 +10,10 @@
 
 @interface ATMainViewController : NSViewController
 @property(nonatomic,strong)IBOutlet NSTextField         *pathView;
-@property(nonatomic,strong)IBOutlet NSProgressIndicator *progress;
+@property(nonatomic,strong)IBOutlet NSTextField         *infoLabel;
 @property(nonatomic,strong)IBOutlet NSButton            *chooseButton;
 @property(nonatomic,strong)IBOutlet NSButton            *startButton;
+@property(nonatomic,strong)IBOutlet NSButton            *selectAll;
 @property(nonatomic,strong)IBOutlet NSView              *channelView;
 @end
 

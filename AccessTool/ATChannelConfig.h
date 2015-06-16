@@ -38,6 +38,7 @@ typedef NS_ENUM(NSInteger, ATConfigReadCode) {
 @property(nonatomic,copy,readonly)NSString *AppScheme_Prefix;
 @property(nonatomic,copy,readonly)NSString *AlipayScheme_Prefix;
 @property(nonatomic,copy,readonly)NSString *BundleID;
+@property(nonatomic,copy,readonly)NSString *BundleVersion;
 @property(nonatomic,copy,readonly)NSString *BundleDisplayName;
 @property(nonatomic,copy,readonly)NSString *ICON_NEED_SETTING;
 @property(nonatomic,copy,readonly)NSString *ICON_location;
